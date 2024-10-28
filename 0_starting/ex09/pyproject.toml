@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = 'ft_package'
+version = '0.0.1'
+description = 'A sample test package'
+authors = [
+  { name='Léo Gaudin', email='lgaudin@student.42malaga.com' },
+]
+license = {file = 'LICENSE'}
+readme = 'README.md'
+requires-python = '>=3.8'
+classifiers = []
+
+[project.urls]
+Homepage = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
