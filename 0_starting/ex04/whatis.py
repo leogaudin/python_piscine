@@ -2,6 +2,9 @@ import sys
 
 
 def main():
+    """Takes as first argument a string representing a number.
+    Prints whether it is Odd or Even."""
+
     try:
         assert len(sys.argv) <= 2, "more than one argument is provided"
         if len(sys.argv) < 2:

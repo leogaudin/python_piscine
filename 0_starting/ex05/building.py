@@ -13,6 +13,9 @@ def get_user_input() -> str:
 
 
 def main():
+    """Takes a string as first parameter or prompts the user to enter it.
+    Prints a count of each specified character types."""
+
     try:
         assert len(sys.argv) <= 2, "more than one argument is provided"
 

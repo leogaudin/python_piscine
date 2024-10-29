@@ -2,6 +2,10 @@ import sys
 
 
 def main():
+    """Takes a string as first argument and a number as second.
+    Prints a list of every string having a larger length than
+    the provided number."""
+
     try:
         assert len(sys.argv) == 3, "the arguments are bad"
 

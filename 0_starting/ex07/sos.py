@@ -2,6 +2,9 @@ import sys
 
 
 def main():
+    """Takes a string as first argument.
+    Prints its equivalent in Morse Code."""
+
     NESTED_MORSE = {
         ' ': '/',
         'A': '.-',
