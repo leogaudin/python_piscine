@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def main():
     try:
-        rgb = ft_load('./1_array/ex03/animal.jpeg')
+        rgb = ft_load('./1_array/animal.jpeg')
         zoomed = rgb[200:600, 500:900]
 
         # We can do the mean for every pixel, but it's honestly

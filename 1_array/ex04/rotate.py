@@ -6,7 +6,7 @@ import numpy as np
 
 def main():
     try:
-        rgb = ft_load('./1_array/ex03/animal.jpeg')
+        rgb = ft_load('./1_array/animal.jpeg')
         zoomed = rgb[200:600, 500:900]
         grayed = zoomed[:, :, 0:1].reshape(400, 400)
         print('New shape after slicing:', grayed.shape)
