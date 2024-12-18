@@ -2,6 +2,7 @@ from S1E7 import Baratheon, Lannister
 
 
 class King(Baratheon, Lannister):
+    """Representing the King"""
     def __init__(self, name, is_alive=True):
         """Constructor for King"""
         Lannister.__init__(self, name=name, is_alive=is_alive)
